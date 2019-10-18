@@ -61,6 +61,61 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Github学习笔记一" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" class="article-date">
+  <time datetime="2019-10-18T08:16:38.000Z" itemprop="datePublished">2019-10-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/">Github学习笔记一</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Github-学习知识点记录"><a href="#Github-学习知识点记录" class="headerlink" title="Github 学习知识点记录"></a>Github 学习知识点记录</h1><h2 id="Create-a-local-repository"><a href="#Create-a-local-repository" class="headerlink" title="Create a local repository"></a>Create a local repository</h2><ol>
+<li>first create a empty file for repository<br> `<pre><code>mkdir learngit
+cd learngit</code></pre> `</li>
+<li>initialization this file for git repository<br> `<pre><code>git init</code></pre> `</li>
+<li>create a testfile and use command ‘’’git add’’’ to add this testfile into repository<br> `<pre><code>git add readme.txt
+git commit -m &quot;write a testfile&quot;</code></pre> `</li>
+</ol>
+<p><strong>m</strong> means a discription for testfile.</p>
+<p>when you commt,sometimes system maybe remind you:<strong>Your name and email address were configured automatically based<br>on your username and hostname. Please check that they are accurate.<br>You can suppress this message by setting them explicitly. Run the<br>following command and follow the instructions in your editor to edit<br>your configuration file:</strong></p>
+<p>it happend especially in MBP user.</p>
+<p><strong>solution</strong><br><code>git config --global user.name &quot;Your Github username&quot;
+git config --global user.email &quot;Your Github email address&quot;
+git commit --amend --reset-author.</code></p>
+<h2 id="How-to-create-a-remote-repository-on-Github-and-associate-with-local-repository"><a href="#How-to-create-a-remote-repository-on-Github-and-associate-with-local-repository" class="headerlink" title="How to create a remote repository on Github and associate with local repository?"></a>How to create a remote repository on Github and associate with local repository?</h2><ol>
+<li>You need to create a new repo on Github</li>
+<li>use command<br><code>git remote add origin git@github.com:Albertyao1993/learngit.git</code></li>
+<li>push your file to github<br><code>git push -u origin master</code></li>
+</ol>
+<p><strong><em>tip:</em></strong><br>when you first time push your code, command <code>git push -u origin master</code> .<br>later you can use<code>git push orgin master</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" data-id="ck1vw177r000058ci5akr4pul" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-my-first-blog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/17/my-first-blog/" class="article-date">
@@ -87,7 +142,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1v833yb000029ci16tgf9t9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1vw1780000258ciby871p09" class="article-share-link">Share</a>
       
       
     </footer>
@@ -136,7 +191,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck1v833yf000129ciagf2cg6n" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck1vw177x000158ci2ewaauf4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -175,6 +230,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/">Github学习笔记一</a>
+          </li>
         
           <li>
             <a href="/2019/10/17/my-first-blog/">my first blog</a>
