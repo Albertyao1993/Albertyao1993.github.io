@@ -61,6 +61,59 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-How-to-create-a-virtual-environment-for-python-with-annaconda" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" class="article-date">
+  <time datetime="2019-10-20T18:56:46.000Z" itemprop="datePublished">2019-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/">How to create a virtual environment for python with anaconda</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="How-to-create-a-virtual-environment-for-python-with-anaconda"><a href="#How-to-create-a-virtual-environment-for-python-with-anaconda" class="headerlink" title="How to create a virtual environment for python with anaconda"></a>How to create a virtual environment for python with anaconda</h1><p>Anaconda is a platform which can provide a various virtual development environment for date science. People can create different development file. This text recording the approach that using conda to create a specific development environment.</p>
+<ol>
+<li><p>You need to install anaconda on your system. Man can download the install programm on website. <a href="http://www.anaconda,com" target="_blank" rel="noopener">www.anaconda,com</a>. Then using command <code>conda -v</code> to check out.</p>
+</li>
+<li><p>Create a virtual enviroment.<br> <code>conda create -n projectname python=x.x anaconda</code></p>
+<p> tip: command <code>conda search &quot;^python$&quot;</code> can check which python version you can use for your enviroment. Usually we use python3.X to development.</p>
+</li>
+<li><p>Active yout virtual enviroment.<br><code>source activate projectname</code></p>
+</li>
+<li><p>Install additional Python packet,which is necessary for development.<br> <code>conda install [packagesname]</code> OR<br> <code>pip install [packagesname]</code> OR<br> <code>conda install -n projectname [packagesname]</code></p>
+<p> When you will, you can also install package in pycharm with package manager.</p>
+</li>
+<li><p>When you don’t need your current enviroment. Use command<br> <code>source deactivate</code><br> to close enviroment.</p>
+</li>
+<li><p>Delete a no longer needed enviroment.<br> <code>conda remove -n projectname -all</code></p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" data-id="ck1ze11kq0001rwcigjsjhfa8" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-Github学习笔记一" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" class="article-date">
@@ -107,7 +160,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" data-id="ck1vw5pt00000c8ci86we7c5j" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" data-id="ck1ze11kt0003rwci5a5rh929" class="article-share-link">Share</a>
       
       
     </footer>
@@ -143,7 +196,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1vw5pt80002c8cid8byewlx" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1ze11kj0000rwci07w79uti" class="article-share-link">Share</a>
       
       
     </footer>
@@ -192,7 +245,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck1vw5pt50001c8cihsv50crl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck1ze11ks0002rwci26ge9mf6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -231,6 +284,10 @@ git commit --amend --reset-author.</code></p>
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/">How to create a virtual environment for python with anaconda</a>
+          </li>
         
           <li>
             <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/">Github学习笔记一</a>

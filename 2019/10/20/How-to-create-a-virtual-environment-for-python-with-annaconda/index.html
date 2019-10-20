@@ -5,14 +5,16 @@
   
 
   
-  <title>my first blog | Hexo</title>
+  <title>How to create a virtual environment for python with anaconda | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="my first blog">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;17&#x2F;my-first-blog&#x2F;index.html">
+  <meta name="description" content="How to create a virtual environment for python with anacondaAnaconda is a platform which can provide a various virtual development environment for date science. People can create different development">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to create a virtual environment for python with anaconda">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;20&#x2F;How-to-create-a-virtual-environment-for-python-with-annaconda&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="How to create a virtual environment for python with anacondaAnaconda is a platform which can provide a various virtual development environment for date science. People can create different development">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-17T21:27:49.322Z">
+<meta property="og:updated_time" content="2019-10-20T19:31:50.213Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -60,10 +62,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-my-first-blog" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-How-to-create-a-virtual-environment-for-python-with-annaconda" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/10/17/my-first-blog/" class="article-date">
-  <time datetime="2019-10-17T21:27:49.000Z" itemprop="datePublished">2019-10-17</time>
+    <a href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" class="article-date">
+  <time datetime="2019-10-20T18:56:46.000Z" itemprop="datePublished">2019-10-20</time>
 </a>
     
   </div>
@@ -74,7 +76,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      my first blog
+      How to create a virtual environment for python with anaconda
     </h1>
   
 
@@ -82,11 +84,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="How-to-create-a-virtual-environment-for-python-with-anaconda"><a href="#How-to-create-a-virtual-environment-for-python-with-anaconda" class="headerlink" title="How to create a virtual environment for python with anaconda"></a>How to create a virtual environment for python with anaconda</h1><p>Anaconda is a platform which can provide a various virtual development environment for date science. People can create different development file. This text recording the approach that using conda to create a specific development environment.</p>
+<ol>
+<li><p>You need to install anaconda on your system. Man can download the install programm on website. <a href="http://www.anaconda,com" target="_blank" rel="noopener">www.anaconda,com</a>. Then using command <code>conda -v</code> to check out.</p>
+</li>
+<li><p>Create a virtual enviroment.<br> <code>conda create -n projectname python=x.x anaconda</code></p>
+<p> tip: command <code>conda search &quot;^python$&quot;</code> can check which python version you can use for your enviroment. Usually we use python3.X to development.</p>
+</li>
+<li><p>Active yout virtual enviroment.<br><code>source activate projectname</code></p>
+</li>
+<li><p>Install additional Python packet,which is necessary for development.<br> <code>conda install [packagesname]</code> OR<br> <code>pip install [packagesname]</code> OR<br> <code>conda install -n projectname [packagesname]</code></p>
+<p> When you will, you can also install package in pycharm with package manager.</p>
+</li>
+<li><p>When you don’t need your current enviroment. Use command<br> <code>source deactivate</code><br> to close enviroment.</p>
+</li>
+<li><p>Delete a no longer needed enviroment.<br> <code>conda remove -n projectname -all</code></p>
+</li>
+</ol>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1ze11kj0000rwci07w79uti" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" data-id="ck1ze11kq0001rwcigjsjhfa8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -95,19 +114,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Github学习笔记一
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/10/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">Github学习笔记一</div>
     </a>
   
 </nav>
