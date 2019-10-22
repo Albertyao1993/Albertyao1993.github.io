@@ -61,6 +61,52 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-How-to-generate-ssh-key" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/10/22/How-to-generate-ssh-key/" class="article-date">
+  <time datetime="2019-10-22T20:33:27.000Z" itemprop="datePublished">2019-10-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/22/How-to-generate-ssh-key/">How to generate ssh key</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="How-to-generate-a-SSH-Key-on-laptop"><a href="#How-to-generate-a-SSH-Key-on-laptop" class="headerlink" title="How to generate a SSH Key on laptop"></a>How to generate a SSH Key on laptop</h1><ol>
+<li><p>In terminal input command <code>ls -al ~/.ssh</code>,if you have already generate a ssh key on laptop, this command will return 2 <strong>id_rsa</strong> and <strong>id_rsa.pub</strong> file, otherwise it will return <strong>No such file or directory</strong></p>
+</li>
+<li><p>Generate a new SSH_Key<br> Use command <code>ssh-keygen -t rsa -C &quot;email@example.com&quot;</code><br> email@example,com is your email address, which you use to register github account.</p>
+</li>
+<li><p><code>ssh-add ~/.ssh/id_rsa</code>. After success terminal dispaly<br> <code>Identity added: /home/xxx/.ssh/id_rsa (/home/xxx/.ssh/id_rsa)</code></p>
+</li>
+<li><p>finally input command <code>cat /home/xxx/.ssh/id_rsa</code></p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/10/22/How-to-generate-ssh-key/" data-id="ck22bko7n0001zmciawr18kcc" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-How-to-create-a-virtual-environment-for-python-with-annaconda" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" class="article-date">
@@ -104,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" data-id="ck1ze11kq0001rwcigjsjhfa8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/" data-id="ck22bko7u0004zmcifeqx7x3f" class="article-share-link">Share</a>
       
       
     </footer>
@@ -160,7 +206,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" data-id="ck1ze11kt0003rwci5a5rh929" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/18/Github%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/" data-id="ck22bko7c0000zmci8d0642yl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -196,7 +242,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck1ze11kj0000rwci07w79uti" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/my-first-blog/" data-id="ck22bko7t0003zmci7p7zfkuc" class="article-share-link">Share</a>
       
       
     </footer>
@@ -245,7 +291,7 @@ git commit --amend --reset-author.</code></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck1ze11ks0002rwci26ge9mf6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/17/hello-world/" data-id="ck22bko7r0002zmci8cjk5x9x" class="article-share-link">Share</a>
       
       
     </footer>
@@ -284,6 +330,10 @@ git commit --amend --reset-author.</code></p>
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/10/22/How-to-generate-ssh-key/">How to generate ssh key</a>
+          </li>
         
           <li>
             <a href="/2019/10/20/How-to-create-a-virtual-environment-for-python-with-annaconda/">How to create a virtual environment for python with anaconda</a>
